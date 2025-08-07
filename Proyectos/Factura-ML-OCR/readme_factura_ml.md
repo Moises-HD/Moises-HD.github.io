@@ -47,7 +47,7 @@ Factura-ML-OCR/
 
 Se incluyen capturas con ejemplos reales de ejecución donde el modelo ha obtenido hasta un 100% de precisión en campos clave extraídos de facturas.
 
-📷 Accede a las capturas aquí: capturas/
+📷 Accede a las capturas aquí: [capturas/](https://github.com/Moises-HD/Moises-HD.github.io/tree/main/Proyectos/Factura-ML-OCR/capturas)
 
 Ejemplos:
 
@@ -134,21 +134,21 @@ Salida esperada:
 
 Las siguientes capturas muestran salidas del sistema (accuracy parcial o total):
 
-capturas/Factura1.png
+![capturas/Factura1.png](https://github.com/Moises-HD/Moises-HD.github.io/blob/main/Proyectos/Factura-ML-OCR/capturas/Factura1.png)
 
-capturas/Factura2.png
+![capturas/Factura2.png](https://github.com/Moises-HD/Moises-HD.github.io/blob/main/Proyectos/Factura-ML-OCR/capturas/Factura2.png)
 
-capturas/Factura3.png
+![capturas/Factura3.png](https://github.com/Moises-HD/Moises-HD.github.io/blob/main/Proyectos/Factura-ML-OCR/capturas/Factura3.png)
 
-capturas/Factura4.png
+![capturas/Factura4.png](https://github.com/Moises-HD/Moises-HD.github.io/blob/main/Proyectos/Factura-ML-OCR/capturas/Factura4.png)
 
-capturas/Factura5.png
+![capturas/Factura5.png](https://github.com/Moises-HD/Moises-HD.github.io/blob/main/Proyectos/Factura-ML-OCR/capturas/Factura5.png)
 
-capturas/Factura6.png
+![capturas/Factura6.png](https://github.com/Moises-HD/Moises-HD.github.io/blob/main/Proyectos/Factura-ML-OCR/capturas/Factura6.png)
 
-capturas/Factura7.png
+![capturas/Factura7.png](https://github.com/Moises-HD/Moises-HD.github.io/blob/main/Proyectos/Factura-ML-OCR/capturas/Factura7.png)
 
-capturas/Factura8.png
+![capturas/Factura8.png](https://github.com/Moises-HD/Moises-HD.github.io/blob/main/Proyectos/Factura-ML-OCR/capturas/Factura8.png)
 
 🔐 Todos los CUPS han sido anonimizados en las imágenes para proteger los datos personales.
 
