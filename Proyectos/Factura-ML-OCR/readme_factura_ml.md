@@ -128,6 +128,30 @@ Salida esperada:
   "excesoPotencia": "361.98"
 }
 ```
+---
+
+🖼️ Ejemplos visuales de inferencia
+
+Las siguientes capturas muestran salidas del sistema (accuracy parcial o total):
+
+capturas/Factura1.png
+
+capturas/Factura2.png
+
+capturas/Factura3.png
+
+capturas/Factura4.png
+
+capturas/Factura5.png
+
+capturas/Factura6.png
+
+capturas/Factura7.png
+
+capturas/Factura8.png
+
+🔐 Todos los CUPS han sido anonimizados en las imágenes para proteger los datos personales.
+
 
 ---
 
@@ -159,3 +183,10 @@ Desarrollado por Moisés Herrada Díaz. Para más información o colaboraciones,
 
 Este repositorio está disponible bajo la licencia MIT. Puedes usar el código para fines educativos o profesionales con atribución adecuada.
 
+---
+
+🔗 Enlaces
+
+🌐 Página del proyecto: https://moises-hd.github.io/Proyectos/Factura-ML-OCR/
+
+📁 Ver código en GitHub: https://github.com/Moises-HD/Moises-HD.github.io/tree/main/Proyectos/Factura-ML-OCR
