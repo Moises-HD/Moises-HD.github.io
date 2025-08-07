@@ -1,0 +1,38 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Github } from "lucide-react";
+
+export default function Portfolio() {
+  return (
+    <main className="min-h-screen bg-white text-gray-800 p-6">
+      <section className="max-w-5xl mx-auto">
+        <h1 className="text-4xl font-bold mb-4">Moisés - Portfolio</h1>
+        <p className="text-lg mb-8">Proyectos destacados de machine learning, OCR y desarrollo.</p>
+
+        <div className="grid gap-6">
+          <Card className="shadow-xl rounded-2xl">
+            <CardContent className="p-6">
+              <h2 className="text-2xl font-semibold mb-2">📄 Extracción inteligente de datos de facturas eléctricas</h2>
+              <p className="mb-4 text-sm text-gray-600">Python · T5 · Transformers · Doctr · OCR · PyMuPDF</p>
+              <p className="mb-4">
+                Proyecto que utiliza un modelo T5 fine-tuned junto a OCR (Doctr) para analizar facturas eléctricas en PDF y extraer campos clave como CUPS, consumo, importe total y excesos de potencia, con validación y lógica OCR personalizada.
+              </p>
+              <div className="flex items-center gap-4">
+                <Button asChild>
+                  <a
+                    href="https://Moises-HD.github.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver en GitHub
+                    <Github className="ml-2 w-4 h-4" />
+                  </a>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+    </main>
+  );
+}
