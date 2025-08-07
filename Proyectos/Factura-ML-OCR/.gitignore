@@ -1,0 +1,13 @@
+# Ignorar datasets y modelos entrenados
+*.jsonl
+t5_factura_base_model/
+logs/
+__pycache__/
+debug_*.txt
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Archivos de entorno
+.env
