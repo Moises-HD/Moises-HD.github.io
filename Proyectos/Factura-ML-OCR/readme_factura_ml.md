@@ -152,14 +152,14 @@ Las siguientes capturas muestran salidas del sistema (accuracy parcial o total):
 
 🔐 Todos los CUPS han sido anonimizados en las imágenes para proteger los datos personales.
 
-
 ---
 
 ## 🔐 Privacidad y Datos
 
-Este proyecto **no incluye datos reales**. Todos los archivos `.jsonl` y modelos entrenados están excluidos con `.gitignore`.
+Este proyecto **no incluye información personal ni identificadores sensibles**.  
+Las capturas de pantalla muestran resultados reales del sistema sobre facturas auténticas, pero **los CUPS y otros datos personales han sido anonimizados**.
 
-Si deseas probar el sistema, genera tus propios PDFs o usa documentos ficticios.
+> Las cantidades económicas (como consumo y total) pueden corresponder a datos reales con fines de evaluación.
 
 ---
 
