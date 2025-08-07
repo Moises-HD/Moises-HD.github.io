@@ -1,38 +1,69 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Github } from "lucide-react";
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moíses - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #1f2937;
+      font-size: 2em;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .proyecto {
+      margin-top: 2em;
+      padding: 1.5em;
+      border-left: 5px solid #2563eb;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .proyecto h2 {
+      margin-top: 0;
+      color: #111827;
+    }
+    .tech {
+      color: #2563eb;
+      font-weight: bold;
+    }
+    .github-button {
+      display: inline-block;
+      margin-top: 1em;
+      background-color: #111827;
+      color: #fff;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.95em;
+    }
+    .github-button:hover {
+      background-color: #2563eb;
+    }
+  </style>
+</head>
+<body>
 
-export default function Portfolio() {
-  return (
-    <main className="min-h-screen bg-white text-gray-800 p-6">
-      <section className="max-w-5xl mx-auto">
-        <h1 className="text-4xl font-bold mb-4">Moisés - Portfolio</h1>
-        <p className="text-lg mb-8">Proyectos destacados de machine learning, OCR y desarrollo.</p>
+  <h1>Moíses - Portfolio</h1>
+  <p>Bienvenido a mi portfolio. Aquí encontrarás proyectos destacados relacionados con machine learning, OCR y desarrollo de soluciones inteligentes.</p>
 
-        <div className="grid gap-6">
-          <Card className="shadow-xl rounded-2xl">
-            <CardContent className="p-6">
-              <h2 className="text-2xl font-semibold mb-2">📄 Extracción inteligente de datos de facturas eléctricas</h2>
-              <p className="mb-4 text-sm text-gray-600">Python · T5 · Transformers · Doctr · OCR · PyMuPDF</p>
-              <p className="mb-4">
-                Proyecto que utiliza un modelo T5 fine-tuned junto a OCR (Doctr) para analizar facturas eléctricas en PDF y extraer campos clave como CUPS, consumo, importe total y excesos de potencia, con validación y lógica OCR personalizada.
-              </p>
-              <div className="flex items-center gap-4">
-                <Button asChild>
-                  <a
-                    href="https://Moises-HD.github.io"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Ver en GitHub
-                    <Github className="ml-2 w-4 h-4" />
-                  </a>
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-    </main>
-  );
-}
+  <div class="proyecto">
+    <h2>📄 Extracción inteligente de datos de facturas eléctricas</h2>
+    <p class="tech">Python · T5 · Transformers · Doctr · OCR · PyMuPDF</p>
+    <p>
+      Proyecto que utiliza un modelo T5 fine-tuned junto a OCR (Doctr) para analizar facturas eléctricas en PDF y extraer campos clave como CUPS, consumo, importe total y excesos de potencia. Incluye lógica OCR personalizada, validación numérica y reglas específicas para casos como facturas rectificativas o sin cargos.
+    </p>
+    <a class="github-button" href="https://github.com/moises-hd/NOMBRE_DEL_REPO" target="_blank">Ver en GitHub</a>
+  </div>
+
+</body>
+</html>
