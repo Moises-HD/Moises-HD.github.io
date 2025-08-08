@@ -23,7 +23,7 @@ Incluye etiquetado visual con Streamlit, entrenamiento y modelo inferencial.
 
 ---
 
-## 🚀 Prueba Online (si está disponible)
+## 🚀 Prueba Online
 
 👉 Puedes probar el proyecto desde GitHub Pages:  
 [**https://moises-hd.github.io/Proyectos/Factura-ML-OCR/**](https://github.com/Moises-HD/Moises-HD.github.io/tree/main/Proyectos/Factura-ML-OCR)
